@@ -8,7 +8,6 @@ async def on_startup(_):
           'Бот онлайн...\n'
           '=================')
 
-gpt.gpt_reg_mod(dp)
 commands.reg_mod(dp)
 
 executor.start_polling(dp, skip_updates=True, on_startup=on_startup)
